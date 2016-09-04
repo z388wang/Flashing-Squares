@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+#div1{
+width: 100px;
+height: 100px;
+position: relative;
+background-color: yellow;
+animation: this 3s infinite;
+-webkit-animation: this 3s infinite;
+animation-delay: 1s;
+animation-direction: alternate;
+}
+@-webkit-keyframes this{
+0%{background-color:yellow; left:100px; top:100px}
+25%{background-color:blue; left:1700px; top:100px}
+50%{background-color:green; left:1700px; top:800px}
+75%{background-color:red; left:100px; top:800px}
+100%{background-color:yellow; left:100px; top:100px}
+}
+
+
+#div2{
+width: 100px;
+height: 100px;
+position: relative;
+background-color: blue;
+animation: that 3s infinite;
+-webkit-animation: that 3s infinite;
+animation-delay: 1.1s;
+animation-direction: alternate;
+}
+@-webkit-keyframes that{
+0%{background-color:blue; left:200px; top:100px}
+25%{background-color:green; left:1600px; top:100px}
+50%{background-color:red; left:1600px; top:600px}
+75%{background-color:yellow; left:200px; top:600px}
+100%{background-color:blue; left:200px; top:100px}
+}
+
+
+#div3{
+width: 100px;
+height: 100px;
+position: relative;
+background-color: green;
+animation: those 3s infinite;
+-webkit-animation: those 3s infinite;
+animation-delay: 1.2s;
+animation-direction: alternate;
+}
+@-webkit-keyframes those{
+0%{background-color:green; left:300px; top:100px}
+25%{background-color:red; left:1500px; top:100px}
+50%{background-color:yellow; left:1500px; top:400px}
+75%{background-color:blue; left:300px; top:400px}
+100%{background-color:green; left:300px; top:100px}
+}
+
+
+#div4{
+width: 100px;
+height: 100px;
+position: relative;
+background-color: red;
+animation: these 3s infinite;
+-webkit-animation: these 3s infinite;
+animation-delay: 1.3s;
+animation-direction: alternate;
+}
+@-webkit-keyframes these{
+0%{background-color:red; left:400px; top:100px}
+25%{background-color:yellow; left:1400px; top:100px}
+50%{background-color:blue; left:1400px; top:200px}
+75%{background-color:green; left:400px; top:200px}
+100%{background-color:red; left:400px; top:100px}
+}
+
+
+#div5{
+width: 100px;
+height: 100px;
+position: relative;
+background-color: yellow;
+animation: then 3s infinite;
+-webkit-animation: then 3s infinite;
+animation-delay: 1.4s;
+animation-direction: alternate;
+}
+@-webkit-keyframes then{
+0%{background-color:yellow; left:500px; top:100px}
+25%{background-color:blue; left:1300px; top:100px}
+50%{background-color:green; left:1300px; top:0px}
+75%{background-color:red; left:500px; top:0px}
+100%{background-color:yellow; left:500px; top:100px}
+}
